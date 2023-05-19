@@ -17,3 +17,5 @@ app.use("/api/client", require("./routes/Contact"));
 
 app.use(errorHandler);
 app.listen(port, () => console.log(`Server started at ${port}`));
+
+module.exports.app
